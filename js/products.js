@@ -7,6 +7,7 @@ const products = [
     {
         name: "Another Product",
         soldOut: false,
+        
     },
     {
         name: "Cheap Product",
@@ -18,19 +19,13 @@ const products = [
 
 const container = document.querySelector(".container");
 
-console.log(container)
-
 let html = "";
 
 
-
-
 for(let i = 0; i < products.length; i++) {
-    console.log(products[i].name)
-
+    
     let stock = products[i].soldOut;
   
-
     if(stock === false) {
         stock = "green";
     }
@@ -41,11 +36,10 @@ for(let i = 0; i < products.length; i++) {
     let price = products[i].price;
 
     if(!price) {
-        price = "Unknown";
+        price = "Unavailable";
     }
     
-    
-    html += `<h1 style="color: ${stock}">${products[i].name}</h1>
+    html += `<h4 style="color: ${stock}">${products[i].name}</h4>
             <p>Price: ${price}</p>`;
 
 }
