@@ -1,9 +1,11 @@
 body {
-    background: #ebebeb;
+    background: black;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
+    background: white;
 }
 
 .product {
