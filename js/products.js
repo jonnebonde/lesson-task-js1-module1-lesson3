@@ -34,7 +34,6 @@ for(let i = 0; i < products.length; i++) {
         stock = "red"
     }
     
-    
     let price = products[i].price;
 
     if(!price) {
