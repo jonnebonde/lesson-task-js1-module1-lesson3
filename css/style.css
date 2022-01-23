@@ -1,11 +1,10 @@
 body {
-    background: black;
+    background: #ebebeb;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    background: white;
 }
 
 .product {
