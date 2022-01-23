@@ -25,13 +25,15 @@ let html = "";
 for(let i = 0; i < products.length; i++) {
     
     let stock = products[i].soldOut;
+
   
-    if(stock === false) {
+    if(!stock) {
         stock = "green";
     }
     else {
-        stock = "red";
+        stock = "red"
     }
+    
     
     let price = products[i].price;
 
