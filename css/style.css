@@ -1,5 +1,6 @@
 body {
-    background: #ebebeb;
+    background: grey;
+
 }
 
 .container {
@@ -13,3 +14,5 @@ body {
     padding: 1rem;
     margin: 1rem;
 }
+
+

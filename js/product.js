@@ -22,3 +22,5 @@ container.innerHTML = ` <div class="product">
                         <h4 style="text-decoration: ${onSale}">${product.name}</h4>
                         <div>Price: ${price}</div>
                         </div>`;
+
+
